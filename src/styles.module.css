@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    margin: 30px;
+}
+
+.tasksColumn {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+
+.tasksColumn:nth-child(2) {
+    border-right: 0 solid;
+    border-left: 0 solid;
+}
+
+.tasksColumn__title {
+    text-align: center;
+    width: 200px;
+    border-bottom: 1px solid;
+}
